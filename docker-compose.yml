@@ -1,0 +1,20 @@
+version: '3'
+services:
+  qcdebug_ws:
+    build:
+      context: .
+      args:
+        - HOSTUID=${USERID}
+        - HOSTGID=${USERGID}
+        - USER=${USER}
+    # restart:   always
+    volumes:
+      - ./home/:/opt/home
+    environment:
+      - "PS1=$$(whoami):$$(pwd) (ws)$$ "
+    command: tail -f /dev/null
+networks:
+  default:
+    external:
+      name: localdev
+
