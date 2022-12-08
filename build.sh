@@ -10,6 +10,8 @@ else
    rm gcc-linaro-aarch64-linux-gnu-4.8-2013.09_linux.tar.bz2
 fi
 
+cp local_settings.py home/tools/linux-ramdump-parser-v2/local_settings.py
+
 export PATH=$PATH:$HOME/bin/
 BUILD_HOME=./home
 mkdir -p $BUILD_HOME
