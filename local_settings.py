@@ -8,6 +8,6 @@ gdb64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-gdb"
 nm64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-nm"
 objdump64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-objdump"
 
-trace_ext = "/usr/lib/crash/extensions/trace.so"
-crashtool = "/usr/bin/crash"
+trace_ext = "/opt/home/ARM64_CRASH/extensions/trace.so"
+crashtool = "/opt/home/ARM64_CRASH/crash"
 tracecmdtool = "/usr/bin/trace-cmd"
