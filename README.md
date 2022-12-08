@@ -1,9 +1,10 @@
-=== Description ===
+**Description**
 
 Docker wrapper around the QCom dump analysis tools.
 
 
-=== Checkout ===
+**Checkout**
+
 
 Clone this projecct and run
 
@@ -12,7 +13,7 @@ $ git submodule init
 $ git submodule update
 ```
 
-=== Build ===
+**Build**
 
 ```
 bash build.sh &
