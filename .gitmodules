@@ -1,0 +1,15 @@
+[submodule "home/tools"]
+	path = home/tools
+	url = https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/tools
+[submodule "home/x86_64-linux-android-4.9"]
+	path = home/x86_64-linux-android-4.9
+	url = https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+[submodule "home/arm-linux-androideabi-4.8"]
+	path = home/arm-linux-androideabi-4.8
+	url = https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+[submodule "home/arm-linux-androideabi-4.9"]
+	path = home/arm-linux-androideabi-4.9
+	url = https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+[submodule "home/arm-eabi-4.8"]
+	path = home/arm-eabi-4.8
+	url = https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
