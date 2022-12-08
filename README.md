@@ -22,6 +22,7 @@ bash build.sh &
 Usage:
 
 1.) Copy the dump and vmlinux files into the home directory
+
 2.) Inside the docker project
 
 ```
