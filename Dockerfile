@@ -7,7 +7,7 @@ RUN apt-get install -y gawk wget vim openjdk-8-jdk git-core gnupg flex bison gpe
 RUN apt-get install -y locales python-yaml openssl libssl-dev doxygen time python subversion g++-4.8 gcc-4.8 cgpt  bsdmainutils libxml-simple-perl
 RUN apt-get purge -y g++-5 gcc-5
 
-RUN apt-get install -y python-sphinx trace-cmd
+RUN apt-get install -y python-sphinx trace-cmd crash
 RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 10
 RUN update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 10
 

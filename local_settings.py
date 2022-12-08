@@ -7,3 +7,7 @@ nm_path = ARM_EABI_PATH +"/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi
 gdb64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-gdb"
 nm64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-nm"
 objdump64_path = LINARO_TOOLCHAIN_PATH + "/bin/aarch64-linux-gnu-objdump"
+
+trace_ext = "/usr/lib/crash/extensions/trace.so"
+crashtool = "/usr/bin/crash"
+tracecmdtool = "/usr/bin/trace-cmd"
